@@ -1,4 +1,4 @@
-package linkedlist;
+package com.srini.linkedList;
 
 public class LList {
 	int data;

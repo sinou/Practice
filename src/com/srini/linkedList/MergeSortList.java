@@ -1,9 +1,9 @@
-package linkedlist;
+package com.srini.linkedList;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import linkedlist.LList;
+import com.srini.linkedList.LList;
 
 public class MergeSortList {
 

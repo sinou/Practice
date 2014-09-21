@@ -1,6 +1,6 @@
-package linkedlist;
+package com.srini.linkedList;
 
-import linkedlist.LList;
+import com.srini.linkedList.LList;
 
 public class Pair {
 

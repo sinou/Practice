@@ -20,7 +20,7 @@ public class WordSearch {
 	
 	public static void searchFor(String word){
 		if(word.length() < 0){
-			U.prtl("Invalid input");
+			U.pl("Invalid input");
 			return;
 		}
 		for(int i = 0; i < grid.length; i++){
@@ -28,7 +28,7 @@ public class WordSearch {
 				searchEveryWhere(i, j, word, new StringBuffer(""));
 			}
 		}
-		U.prtl("not found!");
+		U.pl("not found!");
 	}
 	public static void searchEveryWhere(int i, int j, String word, StringBuffer currentWord){
 		if(word.equals(currentWord.toString()) && word.length() > 0){
@@ -52,9 +52,9 @@ public class WordSearch {
 	public static void printVisisted(){
 		for(int i = 0; i < visited.length; i++){
 			for(int j = 0; j < visited[0].length; j++){
-				U.prt(visited[i][j] + " ");
+				U.p(visited[i][j] + " ");
 			}
-			U.prtl("");
+			U.pl("");
 		}
 	}
 	

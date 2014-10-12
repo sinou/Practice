@@ -10,7 +10,7 @@ public class AllPalindromes {
 		for(int i = 0; i < word.length(); i++){
 			for(int j = i + 2; j < word.length(); j++){
 				if(isPalindrome(word, i, j)){
-					U.prtl(word.substring(i, j+1));//there is a dynamic programming solution
+					U.pl(word.substring(i, j+1));//there is a dynamic programming solution
 					//hiding in here. will update soon
 				}
 			}

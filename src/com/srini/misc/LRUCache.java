@@ -35,6 +35,13 @@ public class LRUCache {
 			bookKeeper.put(data, t); // i should create my own data structure and put the linkedlist node as
 										//value here(i.e. the reference of the linkedlist node i created to be added to 'values' list) 
 										//but you know that is obvious (and i am lazy)
+		}else{
+			values.remove(data);
+			values.addLast(data);
+			//make the hashmap value (reference to this node) point to the right object reference. but as before,
+			//because i have not created my own structure to facilitate this and because this is obvious i leave it 
+			//this way
+			
 		}
 	}
 	

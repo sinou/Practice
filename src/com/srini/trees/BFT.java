@@ -39,10 +39,10 @@ public class BFT {
 	}
 	
 	public static Node getUnvisitedChild(Node t){
-		if(t.leftChild != null){if(t.leftChild.visited == false){
+		if(t.leftChild != null && t.leftChild.visited == false){
 			return t.leftChild;
 		}
-		}if(t.rightChild != null){if(t.rightChild.visited == false){
+		}if(t.rightChild != null && t.rightChild.visited == false){
 			return t.rightChild;
 		}
 		}

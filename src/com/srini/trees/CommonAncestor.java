@@ -27,7 +27,7 @@ public class CommonAncestor {
 			return true;
 		}
 
-		return (covers(root.leftChild, child) || covers(root.rightChild, child));
+		return (covers(root.leftChild, child) || covers(root.leftChild, child));
 		
 	}
 	

@@ -3,7 +3,7 @@ package com.srini.mathandstats;
 public class SquareRootWithoutSqrt {
 	private static final double EPSILON = 0.00001;
 	public static void main(String args[]){
-		
+		System.out.println(sqrt(3));
 	}
 	public static double sqrt(double num){
 		double low = 0;

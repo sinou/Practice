@@ -15,7 +15,7 @@ public class AllCombinationsOfSumToN {
 		}
 		
 		for(int i = start; i < target; ++i){
-			int temp = curr + 1;
+			int temp = curr + i;
 			if(temp <= target){
 				answer.add(i);
 				sumToN(target, temp, i, answer);

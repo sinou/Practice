@@ -2,7 +2,7 @@ package com.srini.mathandstats;
 
 public class ParanthesisProblemo {
 	public static void main(String args[]){
-		solveForN(3, 0, 0, "");
+		solveForN(4, 0, 0, "");
 	}
 	public static void solveForN(int n, int leftCount, int rightCount, String output){
 		if(n == 0){

@@ -19,7 +19,7 @@ public class BinarySearchInRotatedArray {
 			return mid;
 		}
 		
-		if(a[low] <= key && a[mid] < key && a[low] < a[mid]){
+		if(a[low] <= key && key < a[mid] && a[low] < a[mid]){
 			return binarySearchRecursive(a, key, low, mid - 1);
 		}else if(a[mid] <= key && a[high] > key && a[mid] < a[high]){
 			return binarySearchRecursive(a, key, mid + 1, high);

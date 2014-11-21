@@ -33,7 +33,7 @@ public class SubTree {
 		if(t1 == null || t2 == null){
 			return false;
 		}
-		if(t1.data == t2.data){
+		if(t1.data != t2.data){
 			return false;
 		}
 		
